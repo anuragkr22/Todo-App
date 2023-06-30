@@ -1,0 +1,18 @@
+/META-INF/resources/webjars/jquery/3.6.4/jquery.min.js
+
+/META-INF/resources/webjars/bootstrap/5.3.0/js/bootstrap.min.js
+
+/META-INF/resources/webjars/bootstrap/5.3.0/css/bootstrap.min.css
+
+
+/META-INF/resources/webjars/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css
+
+/META-INF/resources/webjars/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js
+
+
+
+
+/META-INF/resources/webjars/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css
+
+// docker image command for mysql
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:8-oracle
